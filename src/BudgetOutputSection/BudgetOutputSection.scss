@@ -1,0 +1,21 @@
+@import '../styles/config.scss';
+
+
+.BudgetOutputSection {
+    color: color(primary);
+    width: 100%;
+    // border: 1px solid black;
+
+
+    .Totals {
+        @include flexCenter(row);
+        justify-content: space-between;
+        color: black;
+        border-top: 2px solid black;
+
+        
+        
+    }
+}
+
+

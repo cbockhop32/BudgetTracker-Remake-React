@@ -1,0 +1,8 @@
+@import '../styles//config.scss';
+
+
+
+.BudgetOutputHeader {
+    @include flexCenter(row);
+    justify-content: flex-end;
+}
